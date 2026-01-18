@@ -1,5 +1,5 @@
 # Assignment-1
-
+## Part 1
 ## Introduction
 Topsis which refers to Technique for Order Preference by Similarity to Ideal Solution is a Multi-Criteria Decision Making (MCDM) technique used to rank alternatives based on their distance from an ideal best and an ideal worst solution.
 
@@ -50,8 +50,45 @@ C_i = \frac{S_i^-}{S_i^+ + S_i^-}
 <img width="558" height="285" alt="Screenshot 2026-01-18 at 9 03 23 PM" src="https://github.com/user-attachments/assets/21b0c4e6-64e0-45ca-b433-467746939614" />
 <img width="571" height="287" alt="Screenshot 2026-01-18 at 9 03 03 PM" src="https://github.com/user-attachments/assets/7397451c-64e6-4a82-980c-8083278a7865" />
 
+# Part 3
+In this project, a **web-based TOPSIS service** is developed using **Flask**, where users can upload a CSV file, provide weights and impacts, and receive the ranked result via email.
+
+## 🌐 Web Service Description
+
+## User Inputs:
+- CSV input file
+- Weights (comma-separated)
+- Impacts (comma-separated)
+- Valid Email ID
+
+## Validations:
+- Number of weights = number of impacts
+- Impacts must be either `+` or `-`
+- Email format must be valid
+- Criteria values must be numeric
+
+---
+
+## Output
+- Result CSV file is generated
+- Result file is sent to the provided **email ID**
+- File contains TOPSIS score and rank
+
+---
+
+## Technologies Used
+- Python
+- Flask
+- Pandas
+- NumPy
+- HTML 
+- SMTP
+
+## Conclusion
+This project successfully demonstrates the implementation of the TOPSIS decision-making technique as a web service.  
 
 
+<img width="390" height="323" alt="Screenshot 2026-01-18 at 10 27 57 PM" src="https://github.com/user-attachments/assets/e2c64859-5dc2-4b23-891c-6bd02d90879e" />
 
 
 
