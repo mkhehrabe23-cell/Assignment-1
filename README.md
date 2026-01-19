@@ -56,7 +56,7 @@ C_i = \frac{S_i^-}{S_i^+ + S_i^-}
 # Part 3
 In this project, a **web-based TOPSIS service** is developed using **Flask**, where users can upload a CSV file, provide weights and impacts, and receive the ranked result via email.
 
-## 🌐 Web Service Description
+##  Web Service Description
 
 ## User Inputs:
 - CSV input file
