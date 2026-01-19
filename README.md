@@ -50,6 +50,9 @@ C_i = \frac{S_i^-}{S_i^+ + S_i^-}
 <img width="558" height="285" alt="Screenshot 2026-01-18 at 9 03 23 PM" src="https://github.com/user-attachments/assets/21b0c4e6-64e0-45ca-b433-467746939614" />
 <img width="571" height="287" alt="Screenshot 2026-01-18 at 9 03 03 PM" src="https://github.com/user-attachments/assets/7397451c-64e6-4a82-980c-8083278a7865" />
 
+# Part 2
+<img width="1355" height="683" alt="Screenshot 2026-01-19 at 8 03 19 PM" src="https://github.com/user-attachments/assets/ab5b75e6-bca0-42bd-8a08-7db3f3cf2adc" />
+
 # Part 3
 In this project, a **web-based TOPSIS service** is developed using **Flask**, where users can upload a CSV file, provide weights and impacts, and receive the ranked result via email.
 
